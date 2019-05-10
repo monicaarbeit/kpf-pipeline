@@ -73,8 +73,8 @@ map.on('load', function() {
 // CONNECT TO ATHENA, QUERY FOR MAP COORDINATES
 
 var athena = new AWS.Athena({
-  accessKeyId: "AKIAJDCEWBOHQ2YLZMWA",
-  secretAccessKey: "9tk8G4oP/Gcr/gg0j/c0egXtXOlX8YSa/VykwJ53",
+  accessKeyId: " ", 
+  secretAccessKey: " ", // REPLACE WITH OWN KEY AND PASSWORD
   region: "us-east-1"
 });
 
