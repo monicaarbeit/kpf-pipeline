@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  z-index: 0;
+}
+
+.row {
+  padding: 1rem !important;
+}
+
+#column-left {
+  -ms-flex: 0 0 380px;
+  flex: 0 0 380px;
+}
+
+#console {
+  background-color: rgba(32,32,32,0.8);
+  box-shadow: 2px 6px 30px rgba(0,0,0,0.5);
+}
+
+.fixed-row-bottom { position: fixed; bottom: 0;}
+
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  background: #585858;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.irs--flat.irs-with-grid {
+  width: 400px;
+}
+
+#slider-yearBuilt {
+   width: 300px;
+   /* margin: 0 auto 30px; */
+}
+
+#slider-bldgarea {
+   width: 300px;
+   /* margin: 0 auto 30px; */
+}
+
+#slider-assesTot {
+   width: 300px;
+   /* margin: 0 auto 30px; */
+}
+
+.text-dull {
+  color: #96acb0;
+}
